@@ -1,0 +1,48 @@
+* {box-sizing: border-box;}
+form {clear: both;}
+main{width: 73%; float: right; box-sizing: border-box; margin-top: 150px; margin-left:100px;}
+
+input[type=text]:focus {outline: none;}
+input[type=text] {float: left; width: 130px; font-size: 16px; border: 0px;}
+
+#logo{width: 70px; height: 70px; margin-left: 100px;}
+#message{height: 60px; width: 60px; margin-left: 20px; margin-right: 20px;}
+#cart{height: 60px; width: 60px; margin-left: 20px; margin-right: 20px;}
+#usuario{height: 60px; width: 60px; margin-left: 20px; margin-right: 20px;}
+
+.usuario-img{width: inherit; height: inherit;}
+.logo-img{width: inherit; height: inherit;}
+.sidebar{border: 1px solid ;border-bottom: none; border-color: #999999; padding: 20px; margin-left: 80px; height:100%; width:200px;background-color:#fff;position:fixed!important;z-index:0;overflow:auto; padding-top: 130px;}
+.navbar{ height:100px;width:100%;background-color:#fff;position:fixed!important;z-index:1; border-bottom: 2px solid white; box-shadow: 0px 0px 5px 0px grey;}
+.produto{margin: 10px; padding: 10px; border: 2px solid; border-color: grey; border-radius: 10px; height: 400px; width: 200px; float: right;}
+.img-produto{width: inherit; height: 200px;}
+.descricao-produto{font-size: 20px;}
+.parcela-produto{color: green;}
+.preco-produto{color: #303030;}
+.btn{float: right; background: white; background-size: cover; background-position: center;  border: none; padding-bottom: 20px; width: 25px; border-radius: 900px; height: 25px;}
+.search{border: 1px solid grey; border-radius: 40px; padding: 10px; padding-left: 30px; float: left;}
+.faixa-preco{padding-top: 50px; padding-bottom: 70px;}
+.icon{width: inherit; height: inherit;}
+.search-icon{width: 25px; margin-left: -13px; margin-top: -16px; }
+.categoria{padding-top: 50px;}
+.row{float: right;}
+.search{width: 50%; margin-right: auto;}
+
+
+
+@media only screen and (max-width: 768px) {
+   .sidebar{ display: none;}
+   main{width: 100%; padding:30px ;}
+   .navbar{}
+   #logo{margin-left: 0;}
+   .search{width: 50%; margin-left: auto; margin-right: auto;}
+   .icon{width: 33,33%; margin-right: 0; margin-left: 0;}
+   input[type=text] {float: left; width: 130px; font-size: 16px; border: 0px;}
+
+   #message{margin-right: 5px; margin-left: 5px;}
+   #cart{margin-right: 5px; margin-left: 5px;}
+}
+
+
+
+
